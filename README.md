@@ -1,48 +1,50 @@
-# Project Name: Learning Management System
+# Project Name: ALLABOUT BOOK
 
 ## Idea:
-A system to manage students learning journey. The system enable student to explore new courses, take courses, solve quizzes, etc. Moreover, the teachers can create new quizzes, follow student progress, etc.
+
+It’s a program that gathers readers and writers which will ease for writers to add new books and let the users “reader” follows each writer’s books in their library. 
+Also, the users can reach all books and make lists that have:
+
+    - book’s title
+
+    - Discerption of the book
+
+    - Start reading date
+
+    - End reading date
+
+    - Reading achievement percent for each book
 
 ## Inspiration:
-Facilitate the learning process and the management of students and courses. 
+The ease of adding books for writers. Also, users can reach more different books easily and the reading achievements for each user.
 
 
 ## List of Services / Features:
-
-- Manage the students.
-- Manage the teachers.
-- Manage online courses easily!
-- Manage online assessments.
+- Managing adding books by the writers
+- Simple and easy adding books process for the writers.
+- Easy process for listing books by the users -readers-
+- Reading achievement percent.
 
 
 ## User Stories
-- Type of users: Faculty, Teachers, and Students.
+- Type of users: Admin, Author, and user.
 
-### Faculty
+### Admin
+- Create, Read, Update, Delete Author .
+- Create, Read, Update, Delete books.
+- Create, Read, Update, Delete user.
 
-- Create, Read, Update, Delete teachers.
-- Create, Read, Update, Delete courses.
-- Create, Read, Update, Delete students.
+### Author
+- View books.
+- View the author books
+- the author added his book
 
-### Students
 
-- View courses.
-- Join courses.
-- Withdraw from courses.
-- Edit information.
-- Take assignments.
-- Send Inquiries to teachers and faculties.
-- View joined courses.
-- View course information.
-- View student progress on a specific course.
-- Search for courses.
-
-### Teachers
-
-- View the teacher courses.
-- View the course information.
-- List joined student in the current course.
-- Add assignments to a specific course.
-- Add students grade in a specific course.
-- Search for a students in a specific course.
-- Get student information.
+### User
+- View books.
+- View book information.
+- Search for author.
+- View all the books in the list
+- Add book in the list (name book , description about the book , start read , finsh read , progressions level )
+- Delete book from list
+- Add review on the book 
